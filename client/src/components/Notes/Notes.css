@@ -1,0 +1,11 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+main h1 {
+	font-family: var(--global-font);
+	font-weight: var(--heading-font-weight);
+	margin-bottom: 10px;
+}

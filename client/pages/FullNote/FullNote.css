@@ -1,0 +1,50 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+.full-note {
+  font-family: var(--global-font);
+  font-weight: var(--normal-font-weight);
+  padding-left: 1rem;
+}
+
+.full-note p {
+	font-size: 1.3rem;
+}
+
+.full-note .go-back {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-left: 25px;
+    border: none;
+    background-color: aqua;
+    padding: 6px 15px;
+    border-radius: 25px;
+	width: 150px;
+}
+
+.delete-note {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-left: 25px;
+    border: none;
+    background-color: firebrick;
+    padding: 6px 15px;
+    border-radius: 25px;
+	width: 150px;
+    color: #fff;
+}
+
+.edit-note {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-left: 25px;
+    border: none;
+    background-color: limegreen;
+    padding: 6px 15px;
+    border-radius: 25px;
+	width: 150px;
+    color: #000;
+}

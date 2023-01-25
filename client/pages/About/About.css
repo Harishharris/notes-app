@@ -1,0 +1,25 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+section {
+    font-family: var(--global-font);
+}
+
+p {
+	font-family: var(--global-font);
+	font-weight: var(--normal-font-weight);
+	font-size: 1.2rem;
+}
+
+button {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-top: 15px;
+    border: none;
+    background-color: aqua;
+    padding: 6px 15px;
+    border-radius: 25px;
+}

@@ -1,0 +1,40 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: aqua;
+	font-family: var(--global-font);
+	font-weight: var(--heading-font-weight);
+}
+
+nav * {
+	padding-inline: 10px;
+	cursor: pointer;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li:hover {
+	background-color: #000;
+	display: inline-block;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}

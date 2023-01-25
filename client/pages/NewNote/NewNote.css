@@ -1,0 +1,67 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+section {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+}
+
+.new-note {
+    margin-left: 30px;
+}
+
+form label {
+    font-size: 1.2rem;
+    font-weight: var(--normal-font-weight);
+}
+
+form input {
+    width: 60vw;
+    margin-block: 0.5rem;
+    height: 20px;
+    border-radius: 20px;
+    border-color: gray;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+form input:valid {
+    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+}
+
+form input::placeholder {
+    padding: 5px;
+}
+
+form div {
+    font-weight: var(--heading-font-weight);
+}
+
+form button {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-top: 15px;
+    border: none;
+    background-color: aqua;
+    padding: 6px 15px;
+    border-radius: 25px;
+}
+
+.server-ok {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.server-error {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+}

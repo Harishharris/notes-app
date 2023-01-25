@@ -1,0 +1,27 @@
+:root {
+	--global-font: Poppins;
+	--heading-font-weight: 600;
+	--normal-font-weight: 400
+}
+
+.each-note p {
+    margin-top: 0;
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    font-size: 1.1rem;
+    padding-left: 25px;
+}
+
+.each-note button {
+    font-family: var(--global-font);
+    font-weight: var(--normal-font-weight);
+    margin-left: 25px;
+    border: none;
+    background-color: aqua;
+    padding: 6px 15px;
+    border-radius: 25px;
+}
+
+.each-note button:hover {
+    opacity: 0.8;
+}
