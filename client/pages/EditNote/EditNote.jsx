@@ -12,7 +12,7 @@ export default function NewNote() {
 
 	useEffect(() => {
 		const fetchNote = async () => {
-			const response = await fetch(`http://localhost:3000/notes/api/${id}`)
+			const response = await fetch(`https://notes-api-v2.onrender.com/notes/api/${id}`)
 			const data = await response.json()
 			setEditTitle(data.title)
 			setEditBody(data.body)
