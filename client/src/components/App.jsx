@@ -12,7 +12,7 @@ function App() {
   const [notes, setNotes] = useState(null)
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:3000/notes/api/', {
+      const response = await fetch('https://notes-api-v2.onrender.com/notes/api', {
         method: 'GET'
       })
       const data = await response.json()
