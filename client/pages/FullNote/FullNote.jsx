@@ -15,7 +15,7 @@ export default function FullNote() {
 	}
 
 	async function handleDeleteNote() {
-		const response = await fetch(`http://localhost:3000/notes/api/${id}`, {
+		const response = await fetch(`https://notes-api-v2.onrender.com/notes/api/${id}`, {
 			method: 'DELETE'
 		})
 		if (response.ok) {
