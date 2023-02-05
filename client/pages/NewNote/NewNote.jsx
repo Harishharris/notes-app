@@ -14,7 +14,7 @@ export default function NewNote() {
 
 	async function handleFormSubmit(e) {
 		e.preventDefault()
-		const response = await fetch('http://localhost:3000/notes/api', {
+		const response = await fetch('https://notes-api-v2.onrender.com/notes/api', {
 			method: 'POST',
 			body: JSON.stringify({
 				title: title,
