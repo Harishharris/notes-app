@@ -8,8 +8,8 @@ export default function Note({ note }) {
 	}
 	return (
 		<section className='each-note'>
-			<h1>{note.title}</h1>
-			<p>{note.body}</p>
+			<h1>{note && note.title}</h1>
+      <p>{note && note.body < 30 ? note.body : note.body + "..."}</p>
 			<Link to={`/note/${note._id}`}>
 				<button>Read More</button>
 			</Link>
